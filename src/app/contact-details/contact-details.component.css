@@ -1,0 +1,92 @@
+h1 {
+  text-align: center;
+  
+  color: white;
+}
+
+.progress {
+  display: -ms-flexbox;
+  display: flex;
+  height: 12px;
+  overflow: hidden;
+  font-size: .75rem;
+  background-color: #E9ECF7;
+  border-radius: 28.25rem;
+}
+
+.progress-bar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  background-color: #5c6066;
+  border-radius: 20rem;
+}
+
+.container {
+ padding-top: 2px;
+}
+h3{
+  color: white;
+  padding-top: 35px;
+}
+.form-control {
+  display: block;
+  width: 100%;
+  height: calc(2em + 0.75rem + 3px);
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 0px solid #ced4da;
+  border-radius: 0.5em;
+}
+
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid rgba(255, 255, 255, 5.0);
+}
+
+button {
+  margin-top: 20px;
+  text-align: center;
+  border-radius: 1em;
+  width: auto;
+  background : #7EE3B2;
+  margin-top: 30px;
+  margin-right: 20px;
+  margin-right: 20px
+}
+
+textarea {
+  overflow: auto;
+  resize: vertical;
+  width: 320px;
+  border-radius: 5px;
+}
+
+p {
+  position: relative;
+}
+
+.formMed {
+  display: block;
+  width: 100%;
+  height: calc(2em + 0.75rem + -10px);
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 0px solid #ced4da;
+  border-radius: 0.5em;
+}
